@@ -26,7 +26,7 @@ else:
     })
 
 plt.rcParams['font.family'] = 'sans-serif'
-plt.rcParams['font.sans-serif'] = ['Arial']
+plt.rcParams['font.sans-serif'] = ['ARIAL']
 plt.rcParams['axes.titleweight'] = 'bold'
 plt.rcParams['font.size'] = 15
 plt.rcParams['axes.titlesize'] = 15
@@ -293,7 +293,7 @@ if __name__ == '__main__':
     b = 1.0
     n = 4
     k = 8
-    func = sin
+    func = quad
     #lambda x: np.sin(2 * np.pi * x)
 
     # Geração dos pontos e subdivisão
