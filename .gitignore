@@ -1,0 +1,28 @@
+# Project output folders
+output_*/
+output/
+
+# Python cache and artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build/distribution
+build/
+dist/
+*.egg-info/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
