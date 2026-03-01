@@ -317,7 +317,7 @@ if __name__ == '__main__':
     x_max_plot = x_max + common_margin
 
     for i in range(len(plot_x)):
-        plt.figure(figsize=(8, 6))
+        plt.figure(figsize=(8, 8))
         plt.plot(plot_x[i], plot_y[i], linestyle=' ', marker='o',
                  label=f'Level {i}', color='black', markeredgecolor='red',
                  markerfacecolor='red', markersize=5)
